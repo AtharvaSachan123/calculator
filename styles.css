@@ -133,11 +133,25 @@ background: transparent;
   box-shadow:-8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2) ;
 font-size: 20px;
 cursor: pointer;
-margin: 0.5px;
+margin: 4px;
+
+
 }
 form .display{
   display: flex;
 justify-content: flex-end;
 margin: 20px 0;
-}
 
+}
+form .display input{
+  flex: 1;
+  text-align: right;
+  font-size: 45px;
+  box-shadow: none;
+}
+ form input.equal{
+  width: 133px;
+}
+.dot ,.equal{
+  background-color: orange;
+}
