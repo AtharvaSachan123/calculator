@@ -115,11 +115,23 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+  
+  }
 
 .Calculator{
   padding: 30px;
   border-radius: 10px;
-  background-color:#3a4452;
+  background-color:lightsalmon;
+ 
   
+}
+.Calculator form input{
+  border: 0;
+  outline: 0;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  box-shadow:-8px -8px 15px rgba(255, 255, 255, 0.1) ;
+
 }
